@@ -1,16 +1,59 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+/*
+Body - Source Sans Pro
+H1, H3 - Merriweather
+Butons - Oswald
+Nav - Oswald
+“Because two brains…” - Merriweather*/
+/*- `Merriweather: 700, 700 italics`
+- `Oswald 700`:
+- `Source Sans Pro: 400,700`*/
 
 #container {
   width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   }
+body {
+  background-color: white;
+}
 .top-section {
-
+  background-color: black;
+  height: 110px;
+  border-bottom: 4px solid rgb(240, 244, 77);
 }
 .top-section h1 {
-
+ color: rgb(240, 244, 77);
+ font-family: 'Merriweather', serif;
+ font-size: 30px;
+ weight: 700;
+ padding-top: 20px;
+ padding-left: 20px;
 }
 .top-section ul {
-
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.top-section a {
+  color: white;
+  text-decoration: none; 
+}
+.top-section li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .top-section .find-tab {
-  color: red
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.top-section .informational-tab {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
